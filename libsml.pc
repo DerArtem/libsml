@@ -3,9 +3,9 @@ exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
-Name: libSML
+Name: libsml
 Description: Library for the Smart Messaging Language (SML)
-Version: 0.1
+Version: 0.9
 URL: http://github.com/dailab/libsml
 Requires: uuid >= 2.16
 Libs: -L${libdir} -lsml
